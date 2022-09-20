@@ -30,6 +30,7 @@ jobs:
       - name: Test
         run: |
           pwd
+          ls
       -
         name: Build and push
         uses: docker/build-push-action@v2
