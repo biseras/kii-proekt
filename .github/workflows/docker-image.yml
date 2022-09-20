@@ -31,13 +31,13 @@ jobs:
         run: |
           pwd
           ls
-      -
-        name: Build and push
-        uses: docker/build-push-action@v2
-        with:
-          context: ../Film
-          push: true
-          tags: biseras/film:latest
+#       -
+#         name: Build and push
+#         uses: docker/build-push-action@v2
+#         with:
+#           context: ../Film
+#           push: true
+#           tags: biseras/film:latest
       -
         name: Build and push 2
         uses: docker/build-push-action@v2
