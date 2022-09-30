@@ -15,7 +15,7 @@ jobs:
         
         - name: Build database image
           run: |
-            docker build -t biseras/postgres ./postgresdb
+            docker build -t biseras/postgres ./postgres
             
         - name: Build backend image
           run: |
