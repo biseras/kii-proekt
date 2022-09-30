@@ -15,11 +15,11 @@ jobs:
         
         - name: Build database image
           run: |
-            docker build -t biseras/postgres ./postgres
+            docker build -t biseras/postgres ./
             
         - name: Build backend image
           run: |
-            docker build -t biseras/film ./backend
+            docker build -t biseras/film ./Film
             
         - name: Docker database tag
           run: |
